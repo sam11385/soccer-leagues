@@ -6,6 +6,9 @@ const axios = require('axios');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+app.set('views', 'app/views');
+
 
 // Database connection parameters:
 // const config = {
