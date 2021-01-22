@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/sam11385/soccer-leagues/issues"
   },
-  "homepage": "https://github.com/sam11385/soccer-leagues#readme"
+  "homepage": "https://github.com/sam11385/soccer-leagues#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.4.0"
+  }
 }
